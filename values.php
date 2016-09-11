@@ -3,7 +3,7 @@
 <title>Values and Variables</title>
 </head>
 <?php
-$var1 = 4718;
+$var1 = 4700;
 $var2 = 471;
 $var3 = 443;
 
@@ -16,6 +16,15 @@ if ($var3 == 442)
 else
 {
 	echo ("throw yourself under a bus");
+}
+
+if ($var1 > 4712 && $var2 < 585)
+{
+	echo "Hey";
+}
+else
+{
+	echo "NEIN";
 }
 ?>
 </html>
